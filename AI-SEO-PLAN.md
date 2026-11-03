@@ -82,10 +82,12 @@
       Disallow: /
       ```
       Боевой robots.txt сохранить как `robots.production.txt` и править его там (задача 6).
-- [ ] Vercel → Add New Project → Import `devolik13/bannya`, Framework: Other, Build command пустой,
+- [x] Vercel → Add New Project → Import `devolik13/bannya`, Framework: Other, Build command пустой,
       Output directory `.`. Deployment Protection оставить включённой.
-- [ ] Проверить, что открываются `/`, `/ochakovo`, `/lobnenskaya`.
+- [x] Проверить, что открываются `/`, `/ochakovo`, `/lobnenskaya`.
 **Готово, когда:** страницы открываются по красивым URL, robots копии закрыт.
+**Полигон:** проект Vercel `bannya` (команда devoliks-projects), адрес https://bannya-devoliks-projects.vercel.app.
+Vercel пересобирает копию при каждом пуше; адрес ветки — `bannya-git-<ветка>-devoliks-projects.vercel.app`.
 
 ### 1. JSON-LD (LocalBusiness, Offer, FAQ, Review)
 **Цель:** машиночитаемые факты о компании на каждой странице локации.
@@ -280,3 +282,4 @@ grep -o '<h[1-3][^>]*>[^<]*' page30467207.html | head -30
 
 - 2026-11-03 — аудит экспорта, план создан. Задачи 0–8 не начаты.
 - 2026-11-03 — задача 0: боевой robots.txt сохранён как `robots.production.txt`, в копии `robots.txt` = `Disallow: /`; в `vercel.json` добавлены заголовок `X-Robots-Tag: noindex, nofollow` на все URL и `trailingSlash: false`. Осталось: импортировать репозиторий в Vercel (Deployment Protection не выключать) и проверить `/`, `/ochakovo`, `/lobnenskaya`.
+- 2026-11-03 — задача 0 закрыта: создан проект Vercel `bannya`, развёрнута ветка `claude/focused-planck-ydmayd`. `/`, `/ochakovo`, `/lobnenskaya` (и со слешем) отдают 200, на всех URL `X-Robots-Tag: noindex, nofollow`, robots.txt = `Disallow: /`. Осталось: владельцу проверить в инкогнито, что без входа в Vercel копия не открывается; слить ветку в main, чтобы в main тоже был закрытый robots.
