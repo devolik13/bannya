@@ -1,0 +1,369 @@
+ErrorDocument 403 /page41975743.html
+ErrorDocument 404 /page41975743.html
+
+DirectoryIndex page30466466.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://banniy-dvor\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.banniy-dvor.ru [NC]
+RewriteRule ^(.*)$ https://banniy-dvor\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^success$ page71472611.html [NC]
+RewriteRule ^success/$ page71472611.html [NC]
+
+RewriteRule ^docs$ page104387006.html [NC]
+RewriteRule ^docs/$ page104387006.html [NC]
+
+RewriteRule ^loyalty$ page113333466.html [NC]
+RewriteRule ^loyalty/$ page113333466.html [NC]
+
+RewriteRule ^tourism$ page135249296.html [NC]
+RewriteRule ^tourism/$ page135249296.html [NC]
+
+RewriteRule ^error-page$ page41975743.html [NC]
+RewriteRule ^error-page/$ page41975743.html [NC]
+
+RewriteRule ^lobnenskaya$ page30491483.html [NC]
+RewriteRule ^lobnenskaya/$ page30491483.html [NC]
+
+RewriteRule ^lobnenskaya/docs$ page104371256.html [NC]
+RewriteRule ^lobnenskaya/docs/$ page104371256.html [NC]
+
+RewriteRule ^prequiz/quiz-lobnenskaya$ page137184206.html [NC]
+RewriteRule ^prequiz/quiz-lobnenskaya/$ page137184206.html [NC]
+
+RewriteRule ^lobnenskaya/menu-main$ page139765186.html [NC]
+RewriteRule ^lobnenskaya/menu-main/$ page139765186.html [NC]
+
+RewriteRule ^ochishchayushchaya-pomyvka$ page30199296.html [NC]
+RewriteRule ^ochishchayushchaya-pomyvka/$ page30199296.html [NC]
+
+RewriteRule ^success-old$ page63754449.html [NC]
+RewriteRule ^success-old/$ page63754449.html [NC]
+
+RewriteRule ^store$ page29172374.html [NC]
+RewriteRule ^store/$ page29172374.html [NC]
+
+RewriteRule ^ozernaya$ page35842416.html [NC]
+RewriteRule ^ozernaya/$ page35842416.html [NC]
+
+RewriteRule ^michurinskij-prospekt$ page35842329.html [NC]
+RewriteRule ^michurinskij-prospekt/$ page35842329.html [NC]
+
+RewriteRule ^yugo-zapadnaya$ page35842462.html [NC]
+RewriteRule ^yugo-zapadnaya/$ page35842462.html [NC]
+
+RewriteRule ^seligerskaya$ page35842871.html [NC]
+RewriteRule ^seligerskaya/$ page35842871.html [NC]
+
+RewriteRule ^lihobory$ page35842925.html [NC]
+RewriteRule ^lihobory/$ page35842925.html [NC]
+
+RewriteRule ^hovrino$ page35842961.html [NC]
+RewriteRule ^hovrino/$ page35842961.html [NC]
+
+RewriteRule ^banya-na-den-rozhdeniya$ page35859869.html [NC]
+RewriteRule ^banya-na-den-rozhdeniya/$ page35859869.html [NC]
+
+RewriteRule ^banya-na-dvoih$ page35859875.html [NC]
+RewriteRule ^banya-na-dvoih/$ page35859875.html [NC]
+
+RewriteRule ^banya-na-novyj-god$ page35859890.html [NC]
+RewriteRule ^banya-na-novyj-god/$ page35859890.html [NC]
+
+RewriteRule ^banya-s-bassejnom$ page35859903.html [NC]
+RewriteRule ^banya-s-bassejnom/$ page35859903.html [NC]
+
+RewriteRule ^banya-s-kupelyu$ page35859907.html [NC]
+RewriteRule ^banya-s-kupelyu/$ page35859907.html [NC]
+
+RewriteRule ^korporativ-v-bane$ page35859919.html [NC]
+RewriteRule ^korporativ-v-bane/$ page35859919.html [NC]
+
+RewriteRule ^altufevo$ page35904172.html [NC]
+RewriteRule ^altufevo/$ page35904172.html [NC]
+
+RewriteRule ^test$ page37947891.html [NC]
+RewriteRule ^test/$ page37947891.html [NC]
+
+RewriteRule ^znachenie-bani-dlya-sportsmenov$ page38261965.html [NC]
+RewriteRule ^znachenie-bani-dlya-sportsmenov/$ page38261965.html [NC]
+
+RewriteRule ^chto-mozhno-podarit-lyubitelyam-bani$ page38262102.html [NC]
+RewriteRule ^chto-mozhno-podarit-lyubitelyam-bani/$ page38262102.html [NC]
+
+RewriteRule ^banya-kak-sredstvo-protiv-stressa$ page38262028.html [NC]
+RewriteRule ^banya-kak-sredstvo-protiv-stressa/$ page38262028.html [NC]
+
+RewriteRule ^chto-delat-posle-bani$ page38262124.html [NC]
+RewriteRule ^chto-delat-posle-bani/$ page38262124.html [NC]
+
+RewriteRule ^kamni-dlya-bani$ page38262230.html [NC]
+RewriteRule ^kamni-dlya-bani/$ page38262230.html [NC]
+
+RewriteRule ^preimushhestva-tradiczionnoj-russkoj-bani-na-drovakh$ page39482342.html [NC]
+RewriteRule ^preimushhestva-tradiczionnoj-russkoj-bani-na-drovakh/$ page39482342.html [NC]
+
+RewriteRule ^banya-s-parilkoj$ page41125471.html [NC]
+RewriteRule ^banya-s-parilkoj/$ page41125471.html [NC]
+
+RewriteRule ^arenda-bani/$ page41125982.html [NC]
+RewriteRule ^arenda-bani//$ page41125982.html [NC]
+
+RewriteRule ^banya-msk-ru$ page57134949.html [NC]
+RewriteRule ^banya-msk-ru/$ page57134949.html [NC]
+
+RewriteRule ^banya-na-vyhodnye$ page37524724.html [NC]
+RewriteRule ^banya-na-vyhodnye/$ page37524724.html [NC]
+
+RewriteRule ^banya-na-drovah$ page37524793.html [NC]
+RewriteRule ^banya-na-drovah/$ page37524793.html [NC]
+
+RewriteRule ^landing$ page54046481.html [NC]
+RewriteRule ^landing/$ page54046481.html [NC]
+
+RewriteRule ^about$ page58297037.html [NC]
+RewriteRule ^about/$ page58297037.html [NC]
+
+RewriteRule ^lobnenskaya/lykovaya-pomyvka$ page36164505.html [NC]
+RewriteRule ^lobnenskaya/lykovaya-pomyvka/$ page36164505.html [NC]
+
+RewriteRule ^ochakovo/uhod-za-telom-klassicheskij$ page36834148.html [NC]
+RewriteRule ^ochakovo/uhod-za-telom-klassicheskij/$ page36834148.html [NC]
+
+RewriteRule ^ochakovo/uhod-za-telom-penno-mylnyj$ page36834790.html [NC]
+RewriteRule ^ochakovo/uhod-za-telom-penno-mylnyj/$ page36834790.html [NC]
+
+RewriteRule ^ochakovo/kupel-boyarskaya$ page37107355.html [NC]
+RewriteRule ^ochakovo/kupel-boyarskaya/$ page37107355.html [NC]
+
+RewriteRule ^ochakovo/kupel-citrusovaya$ page37109229.html [NC]
+RewriteRule ^ochakovo/kupel-citrusovaya/$ page37109229.html [NC]
+
+RewriteRule ^ochakovo/kupel-evkaliptovaya$ page37109488.html [NC]
+RewriteRule ^ochakovo/kupel-evkaliptovaya/$ page37109488.html [NC]
+
+RewriteRule ^ochakovo/kupel-lesnaya$ page37109905.html [NC]
+RewriteRule ^ochakovo/kupel-lesnaya/$ page37109905.html [NC]
+
+RewriteRule ^ochakovo/kupel-romashka$ page37110227.html [NC]
+RewriteRule ^ochakovo/kupel-romashka/$ page37110227.html [NC]
+
+RewriteRule ^ochakovo/kupel-bagulnik$ page37110497.html [NC]
+RewriteRule ^ochakovo/kupel-bagulnik/$ page37110497.html [NC]
+
+RewriteRule ^lobnenskaya/kupel-evkaliptovaya/$ page37524903.html [NC]
+RewriteRule ^lobnenskaya/kupel-evkaliptovaya//$ page37524903.html [NC]
+
+RewriteRule ^lobnenskaya/kupel-lesnaya/$ page37525076.html [NC]
+RewriteRule ^lobnenskaya/kupel-lesnaya//$ page37525076.html [NC]
+
+RewriteRule ^lobnenskaya/kupel-travyanaya$ page37614521.html [NC]
+RewriteRule ^lobnenskaya/kupel-travyanaya/$ page37614521.html [NC]
+
+RewriteRule ^lobnenskaya/uhod-za-telom-tajskij$ page38780653.html [NC]
+RewriteRule ^lobnenskaya/uhod-za-telom-tajskij/$ page38780653.html [NC]
+
+RewriteRule ^lobnenskaya/uhod-za-telom-sportivnij$ page38780963.html [NC]
+RewriteRule ^lobnenskaya/uhod-za-telom-sportivnij/$ page38780963.html [NC]
+
+RewriteRule ^lobnenskaya/uhod-za-telom-kitajskij$ page38781251.html [NC]
+RewriteRule ^lobnenskaya/uhod-za-telom-kitajskij/$ page38781251.html [NC]
+
+RewriteRule ^lobnenskaya/uhod-za-telom-shiat-cu$ page38781427.html [NC]
+RewriteRule ^lobnenskaya/uhod-za-telom-shiat-cu/$ page38781427.html [NC]
+
+RewriteRule ^lobnenskaya/uhod-za-telom-limfodrenazhnyj$ page38781552.html [NC]
+RewriteRule ^lobnenskaya/uhod-za-telom-limfodrenazhnyj/$ page38781552.html [NC]
+
+RewriteRule ^lobnenskaya/uhod-za-telom-klassicheskij$ page38914606.html [NC]
+RewriteRule ^lobnenskaya/uhod-za-telom-klassicheskij/$ page38914606.html [NC]
+
+RewriteRule ^ochakovo/venichnaya-pomyvka$ page40226283.html [NC]
+RewriteRule ^ochakovo/venichnaya-pomyvka/$ page40226283.html [NC]
+
+RewriteRule ^ochakovo/kontrastnaya-procedura-citrusovoe-naslazhdenie$ page40226972.html [NC]
+RewriteRule ^ochakovo/kontrastnaya-procedura-citrusovoe-naslazhdenie/$ page40226972.html [NC]
+
+RewriteRule ^ochakovo/kontrastnaya-procedura-ostyvayushhij-relaks$ page40227211.html [NC]
+RewriteRule ^ochakovo/kontrastnaya-procedura-ostyvayushhij-relaks/$ page40227211.html [NC]
+
+RewriteRule ^ochakovo/kontrastnaya-procedura-mozhzhevelovyj-prokol$ page40227475.html [NC]
+RewriteRule ^ochakovo/kontrastnaya-procedura-mozhzhevelovyj-prokol/$ page40227475.html [NC]
+
+RewriteRule ^ochakovo/ochishhayushhaya-pomyvka$ page40227757.html [NC]
+RewriteRule ^ochakovo/ochishhayushhaya-pomyvka/$ page40227757.html [NC]
+
+RewriteRule ^ochakovo/lykovaya-pomyvka$ page40228473.html [NC]
+RewriteRule ^ochakovo/lykovaya-pomyvka/$ page40228473.html [NC]
+
+RewriteRule ^lobnenskaya/venichnaya-pomyvka$ page41126122.html [NC]
+RewriteRule ^lobnenskaya/venichnaya-pomyvka/$ page41126122.html [NC]
+
+RewriteRule ^lobnenskaya/piling-medovo-solevoj/$ page43657795.html [NC]
+RewriteRule ^lobnenskaya/piling-medovo-solevoj//$ page43657795.html [NC]
+
+RewriteRule ^lobnenskaya/piling-medovo-kofejnyj/$ page44028557.html [NC]
+RewriteRule ^lobnenskaya/piling-medovo-kofejnyj//$ page44028557.html [NC]
+
+RewriteRule ^lobnenskaya/piling-medovo-travyanoj/$ page44029141.html [NC]
+RewriteRule ^lobnenskaya/piling-medovo-travyanoj//$ page44029141.html [NC]
+
+RewriteRule ^ochakovo/success-old$ page63755417.html [NC]
+RewriteRule ^ochakovo/success-old/$ page63755417.html [NC]
+
+RewriteRule ^lobnenskaya/success-old$ page63755461.html [NC]
+RewriteRule ^lobnenskaya/success-old/$ page63755461.html [NC]
+
+RewriteRule ^archive/newyear$ page92838016.html [NC]
+RewriteRule ^archive/newyear/$ page92838016.html [NC]
+
+RewriteRule ^new$ page49758241.html [NC]
+RewriteRule ^new/$ page49758241.html [NC]
+
+RewriteRule ^lobnenskaya/programs$ page114205646.html [NC]
+RewriteRule ^lobnenskaya/programs/$ page114205646.html [NC]
+
+RewriteRule ^menu-lobnenskaya$ page31492434.html [NC]
+RewriteRule ^menu-lobnenskaya/$ page31492434.html [NC]
+
+RewriteRule ^menu-ochakovo$ page31492401.html [NC]
+RewriteRule ^menu-ochakovo/$ page31492401.html [NC]
+
+RewriteRule ^ochakovo-88150$ page52015463.html [NC]
+RewriteRule ^ochakovo-88150/$ page52015463.html [NC]
+
+RewriteRule ^header$ page51963195.html [NC]
+RewriteRule ^header/$ page51963195.html [NC]
+
+RewriteRule ^footer$ page50513873.html [NC]
+RewriteRule ^footer/$ page50513873.html [NC]
+
+RewriteRule ^quiz2$ page70296979.html [NC]
+RewriteRule ^quiz2/$ page70296979.html [NC]
+
+RewriteRule ^index$ page67983889.html [NC]
+RewriteRule ^index/$ page67983889.html [NC]
+
+RewriteRule ^blog$ page67884573.html [NC]
+RewriteRule ^blog/$ page67884573.html [NC]
+
+RewriteRule ^dishes$ page67989845.html [NC]
+RewriteRule ^dishes/$ page67989845.html [NC]
+
+RewriteRule ^guest_card$ page68024647.html [NC]
+RewriteRule ^guest_card/$ page68024647.html [NC]
+
+RewriteRule ^header-new$ page70261165.html [NC]
+RewriteRule ^header-new/$ page70261165.html [NC]
+
+RewriteRule ^footer-new$ page70438207.html [NC]
+RewriteRule ^footer-new/$ page70438207.html [NC]
+
+RewriteRule ^reviews$ page71967791.html [NC]
+RewriteRule ^reviews/$ page71967791.html [NC]
+
+RewriteRule ^devichnik-v-bane$ page35859910.html [NC]
+RewriteRule ^devichnik-v-bane/$ page35859910.html [NC]
+
+RewriteRule ^malchishnik-v-bane$ page35859930.html [NC]
+RewriteRule ^malchishnik-v-bane/$ page35859930.html [NC]
+
+RewriteRule ^lobnenskaya/docs/certificates-rules$ page104373676.html [NC]
+RewriteRule ^lobnenskaya/docs/certificates-rules/$ page104373676.html [NC]
+
+RewriteRule ^lobnenskaya/docs/booking-deposit-rules$ page104373696.html [NC]
+RewriteRule ^lobnenskaya/docs/booking-deposit-rules/$ page104373696.html [NC]
+
+RewriteRule ^lobnenskaya/docs/rules$ page113332796.html [NC]
+RewriteRule ^lobnenskaya/docs/rules/$ page113332796.html [NC]
+
+RewriteRule ^ochakovo/docs/certificates-rules$ page104371586.html [NC]
+RewriteRule ^ochakovo/docs/certificates-rules/$ page104371586.html [NC]
+
+RewriteRule ^ochakovo/docs/booking-deposit-rules$ page104372966.html [NC]
+RewriteRule ^ochakovo/docs/booking-deposit-rules/$ page104372966.html [NC]
+
+RewriteRule ^ochakovo/docs/rules$ page113553416.html [NC]
+RewriteRule ^ochakovo/docs/rules/$ page113553416.html [NC]
+
+RewriteRule ^oferta$ page38914666.html [NC]
+RewriteRule ^oferta/$ page38914666.html [NC]
+
+RewriteRule ^policy$ page69881865.html [NC]
+RewriteRule ^policy/$ page69881865.html [NC]
+
+RewriteRule ^consent_to_the_processing_of_personal_data$ page72078645.html [NC]
+RewriteRule ^consent_to_the_processing_of_personal_data/$ page72078645.html [NC]
+
+RewriteRule ^ochakovo$ page30467207.html [NC]
+RewriteRule ^ochakovo/$ page30467207.html [NC]
+
+RewriteRule ^prequiz/quiz-ochakovo$ page121080766.html [NC]
+RewriteRule ^prequiz/quiz-ochakovo/$ page121080766.html [NC]
+
+RewriteRule ^ochakovo/docs$ page104370836.html [NC]
+RewriteRule ^ochakovo/docs/$ page104370836.html [NC]
+
+RewriteRule ^prequiz$ page138412046.html [NC]
+RewriteRule ^prequiz/$ page138412046.html [NC]
+
+RewriteRule ^ochakovo/menu-main$ page139411166.html [NC]
+RewriteRule ^ochakovo/menu-main/$ page139411166.html [NC]
+
+RewriteRule ^ochakovo/menu-bar$ page139415596.html [NC]
+RewriteRule ^ochakovo/menu-bar/$ page139415596.html [NC]
+
+RewriteRule ^ochakovo/menu-summer$ page139760996.html [NC]
+RewriteRule ^ochakovo/menu-summer/$ page139760996.html [NC]
+
+RewriteRule ^ochakovo/certificate$ page139747596.html [NC]
+RewriteRule ^ochakovo/certificate/$ page139747596.html [NC]
+
+RewriteRule ^lobnenskaya/menu-bar$ page139767826.html [NC]
+RewriteRule ^lobnenskaya/menu-bar/$ page139767826.html [NC]
+
+RewriteRule ^ochakovo/feedback$ page149294356.html [NC]
+RewriteRule ^ochakovo/feedback/$ page149294356.html [NC]
+
+RewriteRule ^lobnenskaya/menu-service$ page139769746.html [NC]
+RewriteRule ^lobnenskaya/menu-service/$ page139769746.html [NC]
+
+RewriteRule ^lobnenskaya/menu-summer$ page142743066.html [NC]
+RewriteRule ^lobnenskaya/menu-summer/$ page142743066.html [NC]
+
+RewriteRule ^ochakovo/feedback/leave-review$ page149294686.html [NC]
+RewriteRule ^ochakovo/feedback/leave-review/$ page149294686.html [NC]
+
+RewriteRule ^lobnenskaya/feedback$ page149294046.html [NC]
+RewriteRule ^lobnenskaya/feedback/$ page149294046.html [NC]
+
+RewriteRule ^lobnenskaya/feedback/leave-review$ page149295066.html [NC]
+RewriteRule ^lobnenskaya/feedback/leave-review/$ page149295066.html [NC]
+
+RewriteRule ^promotions$ page145319956.html [NC]
+RewriteRule ^promotions/$ page145319956.html [NC]
+
+RewriteRule ^ochakovo/menu-sezonnoe$ page278024909.html [NC]
+RewriteRule ^ochakovo/menu-sezonnoe/$ page278024909.html [NC]
+
+RewriteRule ^landing$ https://banniy-dvor\.ru/ [R=301,NC,L]
+
+RewriteRule ^privacy$ https://banniy-dvor\.ru/ [R=301,NC,L]
+
+RewriteRule ^home$ https://banniy-dvor\.ru/ [R=301,NC,L]
+
+RewriteRule ^lobnenskaya/success$ https://banniy-dvor\.ru/success [R=301,NC,L]
+
+RewriteRule ^ochakovo/success$ https://banniy-dvor\.ru/success [R=301,NC,L]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+
