@@ -1,5 +1,9 @@
 {
   "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+  ],
   "rewrites": [
     { "source": "/", "destination": "/page30466466.html" },
     { "source": "/success", "destination": "/page71472611.html" },
