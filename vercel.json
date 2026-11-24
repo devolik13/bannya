@@ -113,6 +113,8 @@
     { "source": "/lobnenskaya/feedback/leave-review", "destination": "/page149295066.html" },
     { "source": "/promotions", "destination": "/page145319956.html" },
     { "source": "/ochakovo/menu-sezonnoe", "destination": "/page278024909.html" },
-    { "source": "/ochakovo/srub-knyazheskiy", "destination": "/page383920509.html" }
+    { "source": "/ochakovo/srub-knyazheskiy", "destination": "/page383920509.html" },
+    { "source": "/srub-muzhskie-zabavy", "destination": "/page409239009.html" },
+    { "source": "/ochakovo/srub-muzhskie-zabavy", "destination": "/page409239009.html" }
   ]
 }

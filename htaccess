@@ -357,6 +357,9 @@ RewriteRule ^ochakovo/menu-sezonnoe/$ page278024909.html [NC]
 RewriteRule ^ochakovo/srub-knyazheskiy$ page383920509.html [NC]
 RewriteRule ^ochakovo/srub-knyazheskiy/$ page383920509.html [NC]
 
+RewriteRule ^srub-muzhskie-zabavy$ page409239009.html [NC]
+RewriteRule ^srub-muzhskie-zabavy/$ page409239009.html [NC]
+
 RewriteRule ^landing$ https://banniy-dvor\.ru/ [R=301,NC,L]
 
 RewriteRule ^privacy$ https://banniy-dvor\.ru/ [R=301,NC,L]
